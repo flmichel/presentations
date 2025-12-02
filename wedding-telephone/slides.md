@@ -29,7 +29,7 @@
 
 <img class="flag" src="https://cdn.jsdelivr.net/npm/flag-icons/flags/1x1/gb.svg" alt="EN"> The speaker tells a decided message to the first messenger.  
 
-<img class="flag" src="https://cdn.jsdelivr.net/npm/flag-icons/flags/1x1/jp.svg" alt="JP"> 話し手はあらかじめ決めたメッセージを最初のメッセンジャーに伝える。
+<img class="flag" src="https://cdn.jsdelivr.net/npm/flag-icons/flags/1x1/jp.svg" alt="JP"> 話し手はあらかじめ決めたメッセージを最初のメッセンジャーに伝えます。
 
 <img class="flag" src="https://cdn.jsdelivr.net/npm/flag-icons/flags/1x1/fr.svg" alt="FR"> Le locuteur transmet un message préalablement décidé au premier messager.    
 
@@ -61,7 +61,7 @@
 
 <img class="flag" src="https://cdn.jsdelivr.net/npm/flag-icons/flags/1x1/gb.svg" alt="EN"> The last messenger delivers the message to the recipient.
 
-<img class="flag" src="https://cdn.jsdelivr.net/npm/flag-icons/flags/1x1/jp.svg" alt="JP"> 最後のメッセンジャーが受取人にメッセージを伝える。  
+<img class="flag" src="https://cdn.jsdelivr.net/npm/flag-icons/flags/1x1/jp.svg" alt="JP"> 最後のメッセンジャーが受取人にメッセージを伝えます。  
 
 <img class="flag" src="https://cdn.jsdelivr.net/npm/flag-icons/flags/1x1/fr.svg" alt="FR"> Le dernier messager transmet le message au destinataire.  
 
