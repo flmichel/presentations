@@ -319,7 +319,7 @@
       <div class="header-inner">
         <div class="brand">
           <div>
-            <h1 id="hero-title">Seven Petit Gifts</h1>
+            <h1 id="hero-title">Petit Gift Table</h1>
           </div>
         </div>
         <div class="flag-switch" aria-label="Language selection">
@@ -363,21 +363,21 @@
     <script>
       const copy = {
         en: {
-          brandLabel: "Seven Petit Gifts",
+          brandLabel: "Petit Gift Table",
           cardNote: "Tap for the note",
           back: "Back to all gifts",
-          hint: "Tap the flags above to switch languages anytime. Tap the flags above to switch languages anytime. Tap the flags above to switch languages anytime. Tap the flags above to switch languages anytime. Tap the flags above to switch languages anytime. Tap the flags above to switch languages anytime. Tap the flags above to switch languages anytime. Tap the flags above to switch languages anytime. Tap the flags above to switch languages anytime. Tap the flags above to switch languages anytime. Tap the flags above to switch languages anytime. Tap the flags above to switch languages anytime. Tap the flags above to switch languages anytime. Tap the flags above to switch languages anytime. Tap the flags above to switch languages anytime. Tap the flags above to switch languages anytime. Tap the flags above to switch languages anytime. Tap the flags above to switch languages anytime. Tap the flags above to switch languages anytime. Tap the flags above to switch languages anytime. Tap the flags above to switch languages anytime. Tap the flags above to switch languages anytime. Tap the flags above to switch languages anytime. Tap the flags above to switch languages anytime. Tap the flags above to switch languages anytime. Tap the flags above to switch languages anytime. Tap the flags above to switch languages anytime. Tap the flags above to switch languages anytime. Tap the flags above to switch languages anytime. Tap the flags above to switch languages anytime. Tap the flags above to switch languages anytime. Tap the flags above to switch languages anytime. ",
+          hint: "Tap the flags above to switch languages anytime.",
           pill: (index) => "Gift " + (index + 1),
         },
         fr: {
-          brandLabel: "Sept petits cadeaux",
+          brandLabel: "Table de petits cadeaux",
           cardNote: "Voir le détail",
           back: "Retour aux cadeaux",
           hint: "Vous pouvez changer de langue en haut à tout moment.",
           pill: (index) => "Cadeau " + (index + 1),
         },
         jp: {
-          brandLabel: "7つのプチギフト",
+          brandLabel: "プチギフトテーブル",
           cardNote: "タップして詳細を見る",
           back: "一覧に戻る",
           hint: "上のフラッグでいつでも言語を変えられます。",
@@ -387,145 +387,181 @@
 
       const gifts = [
         {
-          id: "tea-set",
-          palette: ["#f2b880", "#f6d6ad"],
+          id: "biberli",
+          image: "images/biberly.jpg",
+          palette: ["#dba57a", "#f2c69b"],
           translations: {
             en: {
-              title: "Ceramic Tea Set",
+              title: "Appenzell Biberli",
               description:
-                "A two-cup set glazed with warm ivory, perfect for slow tea moments.",
+                "Spiced gingerbread with almond filling from the Swiss Alps.",
             },
             fr: {
-              title: "Service à thé en céramique",
+              title: "Pain d'épices biberli",
               description:
-                "Service à thé ivoire pour deux, parfait pour une pause douce.",
+                "Pain d'épices suisse garni d'amandes d'Appenzell.",
             },
             jp: {
-              title: "陶器のティーセット",
-              description:
-                "柔らかなアイボリーの二人用ティーセット。ゆっくりお茶を楽しむために。",
+              title: "ビーベルリ ジンジャーブレッド",
+              description: "アッペンツェルのアーモンド入りスパイスケーキ。",
             },
           },
         },
         {
-          id: "lavender-honey",
-          palette: ["#d2b0ff", "#f6daff"],
+          id: "calisson",
+          image: "images/calisson.jpg",
+          palette: ["#f6d597", "#fff0c4"],
           translations: {
             en: {
-              title: "Lavender Honey Jar",
+              title: "Calisson d'Aix",
               description:
-                "Small batch honey infused with lavender from Provence.",
+                "Almond and candied melon confection topped with white icing.",
             },
             fr: {
-              title: "Pot de miel à la lavande",
+              title: "Calisson d'Aix",
               description:
-                "Miel de lavande en petite série, récolté en Provence.",
+                "Confiserie aux amandes et melon confit, nappée de glace royale.",
             },
             jp: {
-              title: "ラベンダー蜂蜜",
-              description:
-                "プロヴァンスのラベンダーを漬け込んだ少量生産のハチミツ。",
+              title: "カリソン・ダックス",
+              description: "アーモンドとメロンの砂糖菓子に白いグラサージュ。",
             },
           },
         },
         {
-          id: "olive-oil",
-          palette: ["#b2e7a6", "#e3ffd2"],
+          id: "sencha-tea",
+          image: "images/green_tea.png",
+          palette: ["#b9e774", "#e7f8bf"],
           translations: {
             en: {
-              title: "Mini Olive Oil Bottle",
-              description:
-                "Cold-pressed extra virgin olive oil in a travel bottle.",
+              title: "Sencha Green Tea",
+              description: "A bright cup of Japanese green tea to sip warm.",
             },
             fr: {
-              title: "Mini bouteille d'huile d'olive",
-              description:
-                "Huile d'olive extra vierge pressée à froid en mini bouteille.",
+              title: "Tasse de thé vert",
+              description: "Infusion de sencha vif à savourer chaud.",
             },
             jp: {
-              title: "オリーブオイルの小瓶",
-              description:
-                "コールドプレスのエキストラバージンオリーブオイルを小瓶で。",
+              title: "煎茶の一杯",
+              description: "香り立つ煎茶をあたたかく。",
             },
           },
         },
         {
-          id: "flower-bookmark",
-          palette: ["#f9d9d7", "#ffe7de"],
+          id: "hot-chocolate",
+          image: "images/hot_chocolat.png",
+          palette: ["#d99e63", "#f7cf9d"],
           translations: {
             en: {
-              title: "Pressed Flower Bookmark",
-              description:
-                "Pressed wildflowers sealed in glass for quiet reading nights.",
+              title: "Hot Chocolate & Marshmallows",
+              description: "Creamy hot chocolate served with two soft marshmallows.",
             },
             fr: {
-              title: "Marque-page fleurs pressées",
-              description:
-                "Fleurs sauvages pressées sous verre, pour accompagner vos lectures.",
+              title: "Chocolat chaud guimauves",
+              description: "Tasse de chocolat onctueux avec deux guimauves moelleuses.",
             },
             jp: {
-              title: "押し花のブックマーク",
+              title: "マシュマロ入りホットチョコ",
               description:
-                "野の花を押し花にしてガラスに封じたしおり。読書時間のお供に。",
+                "濃厚チョコドリンクにふわふわマシュマロを浮かべて。",
             },
           },
         },
         {
-          id: "soap-bar",
-          palette: ["#d8e9ff", "#f1f6ff"],
+          id: "butter-sand",
+          image: "images/japanese_cookie.png",
+          palette: ["#f5b76d", "#ffe1b0"],
           translations: {
             en: {
-              title: "Handmade Soap Bar",
-              description: "Shea-butter soap scented with citrus and cedar.",
+              title: "Butter Sand Cookie",
+              description:
+                "Buttery sandwich cookie with a hint of chocolate inside.",
             },
             fr: {
-              title: "Savon artisanal",
-              description: "Savon au karité parfumé d'agrumes et de cèdre.",
+              title: "Biscuit sablé japonais",
+              description:
+                "Sablé sandwich au beurre avec une pointe de chocolat.",
             },
             jp: {
-              title: "手作りソープ",
-              description: "柑橘と杉の香りのシアバター石けん。",
+              title: "バターサンドクッキー",
+              description:
+                "バタークリームを挟んだビスケット、チョコのアクセント。",
             },
           },
         },
         {
-          id: "seed-duo",
-          palette: ["#f9ecb6", "#fff6d3"],
+          id: "napolitains",
+          image: "images/napolitains.jpeg",
+          palette: ["#bfc8ff", "#ffe0b4"],
           translations: {
             en: {
-              title: "Seed Packet Duo",
-              description:
-                "Herb seed pair—basil and mint—to plant after the celebration.",
+              title: "Cailler Napolitains",
+              description: "Assorted Swiss mini chocolate bars to share.",
             },
             fr: {
-              title: "Duo de sachets de graines",
-              description:
-                "Duo de graines d'herbes, basilic et menthe, à planter après la fête.",
+              title: "Napolitains Cailler",
+              description: "Assortiment de mini-tablettes suisses à partager.",
             },
             jp: {
-              title: "ハーブの種セット",
-              description:
-                "バジルとミントの種のセット。式のあとに育ててください。",
+              title: "カイエ ナポリタン",
+              description: "スイスのミニチョコレート詰め合わせ。",
             },
           },
         },
         {
-          id: "truffles",
-          palette: ["#d6c1af", "#f1e2d4"],
+          id: "nougat",
+          image: "images/nougat.webp",
+          palette: ["#f7e9d7", "#fffdf5"],
           translations: {
             en: {
-              title: "Chocolate Truffle Pair",
-              description: "Two dark chocolate truffles dusted with cocoa.",
+              title: "Almond Nougat Squares",
+              description: "Soft white nougat dotted with roasted almond pieces.",
             },
             fr: {
-              title: "Duo de truffes en chocolat",
-              description:
-                "Deux truffes au chocolat noir roulées dans le cacao.",
+              title: "Nougat tendre aux amandes",
+              description: "Carrés de nougat blanc parsemé d'amandes croquantes.",
             },
             jp: {
-              title: "チョコトリュフ",
-              description:
-                "カカオパウダーをまとったダークチョコのトリュフ2粒。",
+              title: "アーモンドヌガー",
+              description: "アーモンドがたっぷり入ったやわらかい白ヌガー。",
+            },
+          },
+        },
+        {
+          id: "kaki-no-tane",
+          image: "images/rice_crakers.png",
+          palette: ["#ff9248", "#ffd29a"],
+          translations: {
+            en: {
+              title: "Kaki no Tane Mix",
+              description: "Spicy rice crackers and peanuts for crunchy snacking.",
+            },
+            fr: {
+              title: "Mélange kaki no tane",
+              description: "Crackers de riz pimentés et cacahuètes à grignoter.",
+            },
+            jp: {
+              title: "柿の種ミックス",
+              description: "ピリ辛の柿の種とピーナッツの定番スナック。",
+            },
+          },
+        },
+        {
+          id: "alpine-tea",
+          image: "images/swiss_tea.jpeg",
+          palette: ["#c4d780", "#f2f7c5"],
+          translations: {
+            en: {
+              title: "Alpine Herbal Infusion",
+              description: "Mountain herbs brewed into a calming golden tea.",
+            },
+            fr: {
+              title: "Infusion herbes alpines",
+              description: "Thé d'herbes de montagne aux notes fleuries.",
+            },
+            jp: {
+              title: "アルプスハーブティー",
+              description: "山のハーブが香るすっきりしたブレンド。",
             },
           },
         },
@@ -628,6 +664,8 @@
           langCopy.pill(index);
         detail.style.background = `linear-gradient(145deg, ${gift.palette[0]} 0%, ${gift.palette[1]} 100%)`;
 
+        window.scrollTo({ top: 0, behavior: "smooth" });
+
         if (!skipHash) {
           location.hash = encodeURIComponent(id);
         }
@@ -641,6 +679,7 @@
         document.getElementById("detail").classList.add("hidden");
         document.getElementById("gallery").classList.remove("hidden");
         document.getElementById("detail").style.background = "";
+        window.scrollTo({ top: 0, behavior: "smooth" });
       }
 
       function wireLanguageButtons() {
