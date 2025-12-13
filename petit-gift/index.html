@@ -354,9 +354,7 @@
         <img id="detail-image" src="" alt="" />
         <h3 id="detail-title"></h3>
         <p id="detail-body"></p>
-        <p class="hint" id="detail-hint">
-          Tap the flags above to switch languages anytime.
-        </p>
+        <p class="hint" id="detail-hint"></p>
       </section>
     </main>
 
@@ -366,21 +364,21 @@
           brandLabel: "Petit Gift Table",
           cardNote: "Tap for the note",
           back: "Back to all gifts",
-          hint: "Tap the flags above to switch languages anytime.",
+          hint: "",
           pill: (index) => "Gift " + (index + 1),
         },
         fr: {
           brandLabel: "Table de petits cadeaux",
           cardNote: "Voir le détail",
           back: "Retour aux cadeaux",
-          hint: "Vous pouvez changer de langue en haut à tout moment.",
+          hint: "",
           pill: (index) => "Cadeau " + (index + 1),
         },
         jp: {
           brandLabel: "プチギフトテーブル",
           cardNote: "タップして詳細を見る",
           back: "一覧に戻る",
-          hint: "上のフラッグでいつでも言語を変えられます。",
+          hint: "",
           pill: (index) => "ギフト " + (index + 1),
         },
       };
@@ -394,16 +392,17 @@
             en: {
               title: "Appenzell Biberli",
               description:
-                "Spiced gingerbread with almond filling from the Swiss Alps.",
+                "Traditional Appenzell biberli, a soft gingerbread filled with almond paste and warm spices. It’s a festive treat we loved finding in Swiss bakeries around the holidays. We wanted to share that cozy alpine sweetness with you.",
             },
             fr: {
               title: "Pain d'épices biberli",
               description:
-                "Pain d'épices suisse garni d'amandes d'Appenzell.",
+                "Un biberli d'Appenzell traditionnel : pain d'épices moelleux fourré de pâte d'amande et d'épices douces. C'est une gourmandise de fête que nous retrouvions dans les boulangeries suisses à Noël. Nous voulions partager cette douceur alpine réconfortante avec vous.",
             },
             jp: {
               title: "ビーベルリ ジンジャーブレッド",
-              description: "アッペンツェルのアーモンド入りスパイスケーキ。",
+              description:
+                "アッペンツェルの伝統菓子ビーベルリ。アーモンドペーストとスパイスを包んだやわらかなジンジャーブレッドです。冬のスイスのベーカリーで出会うお祭りの味を、アルプスの温もりと一緒にどうぞ。",
             },
           },
         },
@@ -415,16 +414,17 @@
             en: {
               title: "Calisson d'Aix",
               description:
-                "Almond and candied melon confection topped with white icing.",
+                "Calisson d'Aix, the beloved Provençal sweet of candied melon and ground almonds under silky icing. Its floral sweetness reminds us of strolling the markets in Aix-en-Provence. A little southern-France delight to savor slowly.",
             },
             fr: {
               title: "Calisson d'Aix",
               description:
-                "Confiserie aux amandes et melon confit, nappée de glace royale.",
+                "Calisson d'Aix, cette confiserie provençale aux amandes et melon confit sous un glaçage délicat. Sa douceur fleurie nous rappelle les marchés d'Aix-en-Provence. Un petit plaisir du sud de la France à déguster tranquillement.",
             },
             jp: {
               title: "カリソン・ダックス",
-              description: "アーモンドとメロンの砂糖菓子に白いグラサージュ。",
+              description:
+                "砂糖漬けのメロンとアーモンドを練り込んだ南仏の銘菓カリソン。白いグラサージュに包まれた華やかな甘さは、エクスの市場を歩くような気分にさせてくれます。フランス南部の小さな幸せをゆっくり味わってください。",
             },
           },
         },
@@ -435,15 +435,18 @@
           translations: {
             en: {
               title: "Sencha Green Tea",
-              description: "A bright cup of Japanese green tea to sip warm.",
+              description:
+                "Freshly brewed sencha green tea with a vivid, grassy aroma. We chose it to share the calm pause it brings after a meal. Enjoy it warm for a clear, gentle finish.",
             },
             fr: {
-              title: "Tasse de thé vert",
-              description: "Infusion de sencha vif à savourer chaud.",
+              title: "Thé vert sencha",
+              description:
+                "Un sencha fraîchement infusé au parfum vert et lumineux. Nous l'avons choisi pour partager la pause apaisante qu'il offre après un repas. Savourez-le chaud pour une finale douce et limpide.",
             },
             jp: {
               title: "煎茶の一杯",
-              description: "香り立つ煎茶をあたたかく。",
+              description:
+                "生き生きとした香りの煎茶を丁寧に淹れました。食後にほっと一息つける静かな時間を分かち合いたくて選んだ一杯です。あたたかいうちに、すっきりとした後味を楽しんでください。",
             },
           },
         },
@@ -454,16 +457,18 @@
           translations: {
             en: {
               title: "Hot Chocolate & Marshmallows",
-              description: "Creamy hot chocolate served with two soft marshmallows.",
+              description:
+                "This hot chocolate is a little piece of our memories from the United States. Tohko used to enjoy it often during cold days, and it brings a warm, cozy feeling. We hope it brings a bit of that warmth to you too.",
             },
             fr: {
               title: "Chocolat chaud guimauves",
-              description: "Tasse de chocolat onctueux avec deux guimauves moelleuses.",
+              description:
+                "Ce chocolat chaud est un petit morceau de nos souvenirs des États-Unis. Tohko en profitait souvent lors des journées froides, et il apporte une chaleur réconfortante. Nous espérons qu'il vous offrira aussi un peu de cette douceur.",
             },
             jp: {
               title: "マシュマロ入りホットチョコ",
               description:
-                "濃厚チョコドリンクにふわふわマシュマロを浮かべて。",
+                "こちらのホットチョコレートは、憧子がシアトルでよく飲んでいた思い出の味です。寒い日に飲むと、心までほっと温まります。そのぬくもりを皆さんにも届けられたら嬉しいです。",
             },
           },
         },
@@ -475,17 +480,17 @@
             en: {
               title: "Butter Sand Cookie",
               description:
-                "Buttery sandwich cookie with a hint of chocolate inside.",
+                "A light and elegant Japanese cookie sandwiched with sweet matcha cream. Its thin, crisp wafers and smooth filling. We chose the matcha flavor. You can find the shop in Kyoto, as well as Tokyo around our place.",
             },
             fr: {
               title: "Biscuit sablé japonais",
               description:
-                "Sablé sandwich au beurre avec une pointe de chocolat.",
+                "Un biscuit japonais léger et élégant garni d'une douce crème au matcha. Gaufrettes fines et croustillantes et garniture onctueuse. Nous avons choisi le parfum matcha. La boutique est à Kyoto et aussi à Tokyo près de chez nous.",
             },
             jp: {
               title: "バターサンドクッキー",
               description:
-                "バタークリームを挟んだビスケット、チョコのアクセント。",
+                "甘い抹茶クリームを挟んだ軽やかで上品な和のクッキー。薄くてサクサクの生地と滑らかなフィリング。私たちは抹茶味を選びました。京都にも、私たちの家の近くの東京にもお店があります。",
             },
           },
         },
@@ -496,15 +501,18 @@
           translations: {
             en: {
               title: "Cailler Napolitains",
-              description: "Assorted Swiss mini chocolate bars to share.",
+              description:
+                "Cailler is one of Switzerland’s oldest and most beloved chocolate brands. Made only in Switzerland, it is known for its rich aroma and exceptionally smooth texture. We wanted to share a truly Swiss flavor from our life there—and it happens to be Tohko's favorite chocolate.",
             },
             fr: {
               title: "Napolitains Cailler",
-              description: "Assortiment de mini-tablettes suisses à partager.",
+              description:
+                "Cailler est l'une des plus anciennes et plus chères marques de chocolat suisses. Fabriqué uniquement en Suisse, il se distingue par son arôme intense et sa texture merveilleusement fondante. Nous voulions partager une saveur vraiment suisse de notre vie là-bas — et c'est le chocolat préféré de Tohko.",
             },
             jp: {
               title: "カイエ ナポリタン",
-              description: "スイスのミニチョコレート詰め合わせ。",
+              description:
+                "カイエはスイス最古級のチョコレートブランドで、国内でしか手に入らない特別な一品です。濃厚な香りとなめらかな口どけが特徴。私たちの“スイスの日常”の味を皆さんにもお届けします。そして何より、憧子が一番好きなチョコレートでもあります。",
             },
           },
         },
@@ -515,15 +523,18 @@
           translations: {
             en: {
               title: "Almond Nougat Squares",
-              description: "Soft white nougat dotted with roasted almond pieces.",
+              description:
+                "Soft almond nougat with honey sweetness and roasted nuts in every bite. This treat reminds us of holiday stalls and sharing sweets with friends. Enjoy its chewy texture alongside coffee or tea.",
             },
             fr: {
               title: "Nougat tendre aux amandes",
-              description: "Carrés de nougat blanc parsemé d'amandes croquantes.",
+              description:
+                "Un nougat tendre aux amandes, doux comme le miel et riche en fruits secs grillés. Il nous rappelle les stands de fêtes et les douceurs partagées entre amis. Savourez sa mâche gourmande avec un café ou un thé.",
             },
             jp: {
               title: "アーモンドヌガー",
-              description: "アーモンドがたっぷり入ったやわらかい白ヌガー。",
+              description:
+                "はちみつの優しい甘さとローストナッツが詰まったやわらかいアーモンドヌガー。祭りの屋台や友人と分け合ったお菓子の思い出がよみがえります。コーヒーやお茶と一緒に噛みしめてください。",
             },
           },
         },
@@ -534,15 +545,18 @@
           translations: {
             en: {
               title: "Kaki no Tane Mix",
-              description: "Spicy rice crackers and peanuts for crunchy snacking.",
+              description:
+                "A classic Japanese rice cracker mix known for its crunchy texture and mild spiciness. It’s often enjoyed as a snack with beer or tea, and is a nostalgic favorite for many in Japan. We hope you enjoy this iconic Japanese flavor. One of François favorites Japanese snacks.",
             },
             fr: {
               title: "Mélange kaki no tane",
-              description: "Crackers de riz pimentés et cacahuètes à grignoter.",
+              description:
+                "Un mélange de crackers de riz japonais réputé pour son croquant et son piquant léger. Il accompagne souvent une bière ou un thé et évoque la nostalgie de nombreux Japonais. Nous espérons que vous aimerez cette saveur iconique du Japon. L'un des snacks japonais préférés de François.",
             },
             jp: {
               title: "柿の種ミックス",
-              description: "ピリ辛の柿の種とピーナッツの定番スナック。",
+              description:
+                "カリカリ食感とほんのり辛さが人気の定番・柿の種ミックス。ビールやお茶のお供として親しまれ、多くの日本人にとって懐かしい味です。この日本らしい風味を楽しんでください。フランソワお気に入りのスナックのひとつです。",
             },
           },
         },
@@ -553,15 +567,18 @@
           translations: {
             en: {
               title: "Alpine Herbal Infusion",
-              description: "Mountain herbs brewed into a calming golden tea.",
+              description:
+                "A gentle herbal infusion made with alpine botanicals we sip in the evenings. Its meadow-like aroma is calming after long days. We hope it brings you the same quiet mountain pause.",
             },
             fr: {
               title: "Infusion herbes alpines",
-              description: "Thé d'herbes de montagne aux notes fleuries.",
+              description:
+                "Une infusion douce d'herbes alpines que nous buvons le soir. Son parfum de prairie apaise après de longues journées. Puissiez-vous y trouver la même parenthèse montagnarde.",
             },
             jp: {
               title: "アルプスハーブティー",
-              description: "山のハーブが香るすっきりしたブレンド。",
+              description:
+                "夕方によく飲むアルプスのハーブブレンド。草原のような穏やかな香りが、一日の終わりに心を静めてくれます。山の静かなひとときを感じてもらえたら嬉しいです。",
             },
           },
         },
@@ -635,7 +652,9 @@
 
         document.getElementById("hero-title").textContent = langCopy.brandLabel;
         document.getElementById("back-label").textContent = langCopy.back;
-        document.getElementById("detail-hint").textContent = langCopy.hint;
+        const hintEl = document.getElementById("detail-hint");
+        hintEl.textContent = langCopy.hint;
+        hintEl.classList.toggle("hidden", !langCopy.hint);
 
         if (activeGiftId) {
           openGift(activeGiftId, { skipHash: true });
